@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">LinearLayout29072016</string>
-    <string name="textView_Helloword">Hello</string>
+    <string name="textView_A">A</string>
+    <string name="textView_B">B</string>
+    <string name="textView_C">C</string>
+    <string name="textView_D">D</string>
+    <string name="textView_1">1</string>
+    <string name="textView_2">2</string>
+    <string name="textView_3">3</string>
+    <string name="textView_4">4</string>
+    <string name="textView_5">5</string>
+    <string name="textView_6">6</string>
 </resources>

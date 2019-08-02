@@ -11,28 +11,40 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:weightSum="4"
         android:orientation="vertical"
         android:layout_weight="1">
+
         <TextView
             android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
             android:background="#FF0000"
-            android:layout_height= "0dp"
-            android:layout_weight="1"/>
+            android:text="@string/textView_A"
+            android:textSize="40sp"/>
         <TextView
             android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:background="#2EFF00"
-            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="@string/textView_B"
+            android:textSize="40sp"
             android:layout_weight="1"/>
         <TextView
             android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:background="#13961E"
-            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="@string/textView_C"
+            android:textSize="40sp"
             android:layout_weight="1"/>
         <TextView
             android:layout_width="match_parent"
-            android:background="#2D41A7"
             android:layout_height="0dp"
+            android:background="#2D41A7"
+            android:gravity="center"
+            android:text="@string/textView_D"
+            android:textSize="40sp"
             android:layout_weight="1"/>
 
     </LinearLayout>
@@ -47,21 +59,33 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="#FC9904"
+            android:gravity="center"
+            android:text="@string/textView_A"
+            android:textSize="40sp"
             android:layout_weight="1"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="#505523"
+            android:gravity="center"
+            android:text="@string/textView_B"
+            android:textSize="40sp"
             android:layout_weight="1"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="#F601FF"
+            android:gravity="center"
+            android:text="@string/textView_C"
+            android:textSize="40sp"
             android:layout_weight="1"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="#f20"
+            android:gravity="center"
+            android:text="@string/textView_D"
+            android:textSize="40sp"
             android:layout_weight="1"/>
 
     </LinearLayout>
